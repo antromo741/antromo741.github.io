@@ -1,11 +1,11 @@
 # Site settings
-author: careful-illustrator-5297
-title: 
+author: Anthony Romagnolo
+title: Journey through Coding
 header-img: img/home-bg.png
 email: anthonyroma741@gmail.com
-copyright_name: careful-illustrator-5297
+copyright_name: Anthony Romagnolo
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Purpose 
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  antromo741
