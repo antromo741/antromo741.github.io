@@ -6,7 +6,7 @@ permalink:  nomethoderror_in_sinatra_mvc_project
 ---
 
 
-Something that you will run into very often while doing your Sinatra project, is a really fun error called the NoMethodError. This will happen while running shotgun in your terminal. Now your server is up and running, you type in the url something similar to this http://127.0.0.1:9393/ferret/something_wrong and wait for the view to render, only it never renders and you get redirected to a page saying NoMethodError in all red. Most of the time you will get a few hints on where your problem came from. To get your first hint you would immediatly look at the top. 
+Something that you will run into very often while doing your Sinatra project, is a really fun error called the NoMethodError. This will happen while running shotgun in your terminal. Now your server is up and running, you type in the url something similar to this "http://127.0.0.1:9393/ferret/something_wrong" and wait for the view to render, only it never renders and you get redirected to a page saying NoMethodError in all red. Most of the time you will get a few hints on where your problem came from. To get your first hint you would immediatly look at the top. 
 
 It will say no method error at and then say a route, mine was at `/ferrets/10` 
 The next hint is directly underneath, it will say something like undefinded method 'email' for nil:NilClass 
