@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails/JS Project Creating a Resposive Navbar with Dropdown Menus"
-date:       2021-01-22 17:21:46 +0000
+date:       2021-01-22 12:21:47 -0500
 permalink:  rails_js_project_creating_a_resposive_navbar_with_dropdown_menus
 ---
 
@@ -60,7 +60,9 @@ I went back into the navbar code and literally started messing with every bit of
 
 I went online and looked to see if people have come across this in the past, and yes, many people have with many different situautions. It appeared people had trouble using a fixed navbar and the overlapping. I really couldn’t find anything to help with the repositioning, but I randomly decided to change fixed to sticky. I don’t know what made me do that, but it WORKED! 
 
-`<nav class="flex items-center justify-between flex-wrap bg-gray-800 p-6 sticky w-full z-10 top-0"> `
+```
+<nav class="flex items-center justify-between flex-wrap bg-gray-800 p-6 sticky w-full z-10 top-0">
+```
 
 I refreshed the page and like magic everything aligned and fixed itself, I was so happy. I still wanted the fixed navbar because I liked that it would only follow the scroll after a certain point. I spent far too much time on this feature and had no problem settling for a small cosmetic difference when scrolling with the navbar. 
 
